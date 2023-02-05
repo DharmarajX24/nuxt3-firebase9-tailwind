@@ -54,4 +54,3 @@ firebase deploy
 ```
 You can deploy your application to any other hosting provider mentioned in [Nuxt 3 deployment documentation](https://nuxt.com/docs/getting-started/deployment).
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
