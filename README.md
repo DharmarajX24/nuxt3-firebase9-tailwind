@@ -12,7 +12,7 @@ yarn install
 ```
 
 ## Configuration
-> :warning: You don't need to use a service account if you are deploying to [Cloud Function for Firebase](https://nitro.unjs.io/deploy/providers/firebase) or any other Google Cloud environment. You can use Application Default Credentials (ADC) instead. Checkout [the documentation](https://firebase.google.com/docs/admin/setup#initialize_the_sdk) for more information. A service account is required only when you are using a non-Google environment like Vercel.
+> :warning: You don't need to use a service account if you are deploying to [Firebase Hosting](https://nitro.unjs.io/deploy/providers/firebase) or any other Google Cloud environment. You can use Application Default Credentials (ADC) instead. Checkout [the documentation](https://firebase.google.com/docs/admin/setup#initialize_the_sdk) for more information. A service account is required only when you are using a non-Google environment like Vercel.
 
 Create a copy of `.env.example` and rename it to `.env`.<br>
 Replace the values with your own Firebase project credentials.
