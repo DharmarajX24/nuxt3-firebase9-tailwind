@@ -17,7 +17,7 @@ yarn install
 Create a copy of `.env.example` and rename it to `.env`.<br>
 Replace the values with your own Firebase project credentials.
 
-If you want to use Firebase Admin SDK, copy fields from your service account JSON file to `.env` file. All service account fields are prefixed with `FIREBASE_SA_`. You must stringify the private key field. It should look like this:
+If you want to use Firebase Admin SDK, copy fields from your service account JSON file to `.env` file. All service account fields are prefixed with `FIREBASE_SA_`. You must replace all newlines with `\n` the private key field. It should look like this:
 ```
 FIREBASE_SA_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nMI...k=\n-----END PRIVATE KEY-----\n"
 ```
