@@ -8,19 +8,19 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "@types/luxon": "^3.3.3",
-    "autoprefixer": "^10.4.16",
-    "nuxt": "^3.8.0",
-    "postcss": "^8.4.31",
-    "prettier": "^3.0.3",
-    "tailwindcss": "^3.3.5",
-    "vue": "^3.3.7",
+    "@nuxt/devtools": "^1.0.8",
+    "@types/luxon": "^3.4.2",
+    "autoprefixer": "^10.4.17",
+    "nuxt": "^3.9.3",
+    "postcss": "^8.4.33",
+    "prettier": "^3.2.4",
+    "tailwindcss": "^3.4.1",
+    "vue": "^3.4.15",
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "firebase": "^10.5.2",
-    "firebase-admin": "^11.11.0",
-    "luxon": "^3.4.3"
+    "firebase": "^10.7.2",
+    "firebase-admin": "^12.0.0",
+    "luxon": "^3.4.4"
   }
 }
